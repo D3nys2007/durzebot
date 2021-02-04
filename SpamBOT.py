@@ -2,7 +2,8 @@
 import pyautogui, time
 import keyboard
 time.sleep(5)
-f = open('Reatrd.txt', 'r')
+text = input('enter you desired file name with your spam text\nMAke Sure To Put .txt at the end:\n')
+f = open(text, 'r')
 
 
 
